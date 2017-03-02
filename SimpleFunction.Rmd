@@ -1,0 +1,15 @@
+---
+title: "SimpleFunction"
+author: "Gerardo Garza"
+date: "March 2, 2017"
+output: 
+  html_document:
+    keep_md: true
+---
+
+## Simple R Function Example
+```{r se}
+se <- function(x){
+  sd(x)/length(x)
+}
+```
